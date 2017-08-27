@@ -34,4 +34,14 @@
         tools:layout_editor_absoluteX="257dp"
         tools:layout_editor_absoluteY="351dp" />
 
+    <TextView
+        android:id="@+id/alarmStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_marginTop="29dp"
+        android:text="alarm not set"
+        android:layout_below="@+id/setAlarm"
+        android:layout_centerHorizontal="true" />
+
 </RelativeLayout>
